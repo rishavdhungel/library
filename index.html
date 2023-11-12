@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>The Library</title>
+</head>
+<body>
+  <h1>The Book Record</h1>
+<div class="btnsection">
+  <button class="addbtn">Add New Book</button>
+  <dialog>
+    <button class="closebtn" autofocus>X</button><br/>
+    <div class="dialogcontainer">
+      <label for="bookname">Book Name:</label><br/>
+      <input type="text" id="bookname" placeholder="Thus Spoke Zarathustra" required/><br/>
+      <label for="bookauthor">Book Author:</label><br/>
+      <input type="text" id="bookauthor" placeholder="Friedrich Nietzsche
+      " required/><br/>
+      <label for="pages">Pages:</label><br/>
+      <input type="number" id="pages" placeholder="500" required><br/>
+      <button class="addrecordbtn">Add Record</button>
+
+    </div>
+
+
+  </dialog>
+
+</div>
+  <div class="showbooks">
+    <div class="bookrecord">
+      <span>Book Title: Thus Spoke Zarathustra</span>
+      <span>Book Author: Friedrich Nietzsche</span>
+      <span>Pages: 500</span>
+    </div>
+
+  </div>
+  
+  <script src="./main.js"></script>
+</body>
+</html>
