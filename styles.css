@@ -105,5 +105,6 @@ dialog::backdrop {
   margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content:space-evenly;
+  gap: 5px;
 }
